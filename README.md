@@ -1,1 +1,3 @@
-# BusTicketBooking-frontend using reactjs
+# BusTicketBooking
+Frontend(ReactJs)+Backend(Springboot)
+
