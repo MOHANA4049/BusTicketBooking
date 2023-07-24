@@ -1,0 +1,35 @@
+.ab
+{
+    position:relative;
+    height:70vh;
+    width:50%;
+    padding:50px 50px;
+    float:left;
+    color:white;
+}
+.ab1
+{
+    position:relative;
+    height:59vh;
+    width:50%;
+    padding:50px 50px;
+    float:left;
+    color:white;
+}
+.top{
+    /* width:50%; */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    /* margin: 0 auto; */
+    display: block;
+    margin:15px;
+    cursor: pointer;
+}
+.top:hover{
+    background-color: #0077ff;
+    color:white;
+}

@@ -1,0 +1,70 @@
+
+.container {
+    width: 1000px;
+    margin:auto;
+    background-color:lightgray;
+    padding:10px;
+    margin-top:15px;
+}
+  
+  .grid td {
+    width: 50px;
+    height: 10px;
+    padding: 15px 15px;
+    border: 1px solid orange;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    margin: 20px 20px;
+  }
+  
+  .grid td:hover {
+    opacity: .7;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .selected {
+    background: orange;
+    color:green;
+    display: inline-block;
+  }
+  
+  .selected::after {
+    content: 'SELECTED'
+  }
+  
+  .reserved {
+    background:green;
+    /* color:lightcoral;
+     */
+     color:red;
+    display: inline-block;
+  }
+  .reserved::after {
+    content: 'RESERVED';
+    align-items: center;
+    
+  }
+  .b0{
+   margin-left:300px;
+   padding:10px 10px 10px 10px;
+   background-color: lightgreen;
+   border:none;
+  }
+  .b0:hover{
+ transform:scale(1.1);
+  }
+  .available::after {
+    content: 'AVAILABLE'
+  }
+  
+  .available {
+    color: #333;
+   
+  }
+  
+  li {
+    list-style: none;
+    display: inline;
+  }

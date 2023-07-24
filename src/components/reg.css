@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.login-page1 {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    border-spacing: 15px;
+    align-items: center;
+    display: flex;
+    box-shadow: 500px;
+    justify-content: center;
+}
+.errorMsg
+{
+    color: red;
+}
+.login-page {
+    box-shadow:0 0 20px 4px,rgba(0,0,0,0.06);
+    height: 100vh;
+    width: 100%;
+    border-spacing: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow:10px 10px 8px #888888;
+}
+.drop{
+    width: 100%;
+    outline: 0;
+    background: #f2f2f2;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 14px;
+    font-style:italic;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.drop:focus {
+    box-shadow: 0 0 5px 0 rgba(106, 98, 210);
+}
+.form {
+    /* background-attachment: fixed;
+    background-position: center; */
+  position: relative;
+  filter:drop-shadow(0 0 2px #000000);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  width: 360px;
+  height: 510px;
+  background-color: #ffffff;
+  padding:40px;
+}
+.form img {
+    position: absolute;
+    height: 20px;
+    top: 230px;
+    right: 60px;
+    cursor: pointer;
+}
+.form input {
+    outline: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    background: #f2f2f2;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px;
+    margin: 15px 0;
+    padding: 8px;
+    font-size: 14px;
+    margin-left:0;
+}
+.form input:focus {
+    box-shadow: 0 0 5px 0 rgba(106, 98, 210);
+}
+.log {
+    width:50%;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+    color: #fff;
+}
+.log:hover
+{
+    transform: scale(1.1);
+    background: #6a62d2;
+    color: #e0efff;
+}
+.message{
+    margin: 15px 0;
+    text-align: center;
+
+}
+.form .message a {
+    font-size: 14px;
+    color: #6a62d2;
+    text-decoration: none;
+}

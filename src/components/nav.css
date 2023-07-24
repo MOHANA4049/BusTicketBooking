@@ -1,0 +1,194 @@
+
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color:lightgray;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+h3{
+    margin-left: 500px;
+}
+.list
+{
+    margin-left:auto;
+    display:flex;
+}
+.nav-item {
+    display: flex;
+    padding:0;
+    float:left;
+    margin:25px 25px 25px 25px;
+}
+body
+{
+    background:url("/public/images/b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}  
+/* The sidepanel menu */
+.sidepanel {
+    height: 80vh; /* Specify a height */
+    width:0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color:whitesmoke; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 70px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .nav a{
+    text-decoration: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color:black;
+    transform:scale(1.1);
+  }
+  /* .book{
+    background-color: white;
+  } */
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .bt
+  {
+    border:none;
+    background-color: lightgray;
+    font-size: medium;
+  }
+  .bt:hover{
+    transform: scale(1.1);
+  }
+  .bt1
+  {
+    border:none;
+    background-color: lightgray;
+    font-size: medium;
+  }
+  .bt1:hover{
+    transform: scale(1.1);
+  }
+  .bt2
+  {
+    border:none;
+    background-color: lightgray;
+    font-size: medium;
+  }
+  .bt2:hover{
+    transform: scale(1.1);
+  }
+  .bt3
+  {
+    border:none;
+    background-color: lightgray;
+    font-size: medium;
+  }
+  .bt3:hover{
+    transform: scale(1.1);
+  }
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: #444;
+  }
+  .box
+  {
+    margin-top: 15%;
+    margin-bottom:10%;
+    margin-left:17%;
+    margin-right:5%;
+  }
+  .b1 {
+    width: 20%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px 32px;
+    margin:15px;
+    border-radius: 50px;
+    border:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .b2 {
+    width: 20%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px 32px;
+    margin:15px;
+    border-radius: 50px;
+    border:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .b1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .b2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .b3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+.b3 {
+    width: 20%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px 32px;
+    border-radius:50px;
+    margin:15px;
+    border:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.search
+{
+  border:none;
+    width: 15%;
+    /* font-weight: bold; */
+    padding: 15px 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left:80px;
+   margin-right:auto;
+   margin-top:auto;
+   margin-bottom: auto;
+    border-radius: 30px;
+    background-color:greenyellow;
+}
+.search:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

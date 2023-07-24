@@ -1,0 +1,14 @@
+.below{
+    background-color: whitesmoke;
+    width:100%;
+    height:100%;
+    float:left;
+    padding: 15px 32px;
+  }
+  .t{
+    padding: 20px 32px;
+  }
+  .t:hover{
+    transform:scale(1.1);
+  }
+  
